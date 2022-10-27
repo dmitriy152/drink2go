@@ -409,6 +409,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 10px;
+    
   }
   .features .card .icon1 {
     background-image: url(/docs/less/img/icon_1.png);
