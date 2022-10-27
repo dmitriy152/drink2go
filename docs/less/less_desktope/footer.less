@@ -1,0 +1,220 @@
+.map{
+    height: 540px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 40px;
+    .logo_footer{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 25%;
+        padding: 20px 20px 20px 20px;
+        border-bottom: none;
+    a{
+        text-decoration:  none;
+        .logo_text{
+            display: flex;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #333333;
+            margin-top: 10px;
+
+        }
+    }
+        .logo_footer_img{
+            background-image: url(/docs/less/img/footer_logo_tablet.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 170px;
+            height: 36px;
+        }
+        .icon_block{
+            width: 160px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .icon1_img{
+                background-image: url(/docs/less/img/icon\ footer1.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 40px;
+                height: 40px;
+            }
+            a:hover{
+                .icon1_img{
+                background-image: url("/docs/less/img/icon\ footer1_hover.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 40px;
+                height: 40px;
+                }
+            }
+            .icon2_img{
+                background-image: url(/docs/less/img/icon\ footer2.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 40px;
+                height: 40px;
+            }
+            a:hover{
+                .icon2_img{
+                background-image: url("/docs/less/img/icon\ footer2_hover.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 40px;
+                height: 40px;
+                }
+            }
+            .icon3_img{
+                background-image: url(/docs/less/img/icon\ footer3.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 40px;
+                height: 40px;
+            }
+            a:hover{
+                cursor: pointer;
+                .icon3_img{
+                background-image: url("/docs/less/img/icon\ footer3_hover.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 40px;
+                height: 40px;
+                
+                }
+            }
+        }
+    }
+    .title{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        color: #7859CF;
+            }
+    .footer_info{
+        display: flex;
+        justify-content: space-between;
+        width: 75%;
+    }
+    .nav_footer{
+        width: 33%;
+        padding: 20px 20px 20px 20px;
+        border: none;
+        a{
+            text-decoration: none;
+        }
+    }
+    .media_link{
+        width: 33%;
+        padding: 20px 20px 20px 20px;
+        border: none;
+        a{
+            text-decoration: none;
+        }
+    }
+    .nav_link{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #333333;
+        margin-top: 20px;
+    }
+    .contact{
+        width: 33%;
+        padding: 20px 0px 20px 0px;
+        border: none;
+        .location{
+            margin-top: 15px;
+            display: flex;
+            width: 100%;
+            .img{
+                background-image: url(/docs/less/img/location.png);
+                width: 13px;
+                height: 16px;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .text{
+                display: flex;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                color: #333333;
+                margin-left: 6px;
+                max-width: 204px;
+            }
+        }
+        .phone{
+            display: flex;
+            align-items: flex-start;
+            width: 100%;
+            margin-top: 15px;
+            .img{
+                background-image: url(/docs/less/img/Phone.png);
+                width: 13px;
+                height: 16px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                
+            }
+            .text{
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                color: #333333;
+                margin-left: 6px;
+            }
+        }
+    }
+    .developted_by{
+        padding: 20px 20px 20px 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-style: normal;
+        a{
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 16px;
+            color: #BDBDBD;
+         }
+         .logo_html_academy{
+            background-image: url("/docs/less/img/logo_htmlAcademy.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 12px;
+            height: 16px;
+            margin-left: 6px;
+         }
+    }
+    .developted_by:hover{
+        a{
+            cursor: pointer;
+            color: #9070EC;
+        }
+        .logo_html_academy{
+            background-image: url("/docs/less/img/logo_htmlAcademy_hover.png");
+        }
+    }
+    .developted_by:active{
+        a{
+            color: #593CAC;
+        }
+        .logo_html_academy{
+            background-image: url("/docs/less/img/logo_htmlAcademy_active.png");
+        }
+    }
+    
+}

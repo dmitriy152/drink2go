@@ -1,0 +1,110 @@
+.pagination_list{
+    width: 100%;    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #F8F8F8;
+    padding: 20px 20px 20px 20px;
+    .pagination_conteiner{
+        width: 448px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .item_pagination{
+        width: 40px;
+        height: 40px;
+        background: #FFFFFF;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #7859CF;
+
+    }
+    .active_page{
+        background: none;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #333333;
+    }
+    a{
+        text-decoration: none;
+    }
+    .button_page{
+        display: flex;
+        align-items: center;
+    }
+    .back{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #FFFFFF;
+        color: #7859CF;
+        border-radius: 4px;
+        width: 150px;
+        height: 40px;
+    }
+    .forward{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #FFFFFF;
+        color: #7859CF;
+        border-radius: 4px;
+        width: 150px;
+        height: 40px;
+    }
+    .hide{
+        display: none;
+    }
+    .arrow_left{
+        background-image: url(/docs/less/img/arrow_left.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 6px;
+        height: 10px;
+    }
+    .arrow_right{
+        background-image: url(/docs/less/img/arrow_right.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 6px;
+        height: 10px;
+    }
+}
+.item_pagination:hover{
+    background-color: #9070EC;
+    color: white;
+    .arrow_left{
+        background-image: url(/docs/less/img/arrow_left_white.png);
+    }
+    .arrow_right{
+        background-image: url(/docs/less/img/arrow_right_white.png);
+    }
+}
+.item_pagination:active{
+    background-color: #593CAC;
+    color: white;
+}
+.back:hover{
+    background-color: #9070EC;
+    color: white;
+}
+.back:active{
+    background-color: #593CAC;
+    color: white;
+}
+.forward:hover{
+    background-color: #9070EC;
+    color: white;
+}
+.forward:active{
+    background-color: #593CAC;
+    color: white;
+}

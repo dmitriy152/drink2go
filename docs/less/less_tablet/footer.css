@@ -1,0 +1,189 @@
+.map {
+  height: 480px;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.footer .logo_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px 20px 20px 20px;
+  border-bottom: none;
+}
+.footer .logo_footer .logo_footer_img {
+  background-image: url(/docs/less/img/footer_logo_tablet.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 170px;
+  height: 36px;
+}
+.footer .logo_footer .icon_block {
+  width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .logo_footer .icon_block .icon1_img {
+  background-image: url(/docs/less/img/icon\ footer1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+.footer .logo_footer .icon_block a:hover .icon1_img {
+  background-image: url("/docs/less/img/icon\ footer1_hover.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+.footer .logo_footer .icon_block .icon2_img {
+  background-image: url(/docs/less/img/icon\ footer2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+.footer .logo_footer .icon_block a:hover .icon2_img {
+  background-image: url("/docs/less/img/icon\ footer2_hover.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+.footer .logo_footer .icon_block .icon3_img {
+  background-image: url(/docs/less/img/icon\ footer3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+.footer .logo_footer .icon_block a:hover .icon3_img {
+  background-image: url("/docs/less/img/icon\ footer3_hover.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+.footer .title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #7859CF;
+}
+.footer .footer_info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.footer .nav_footer {
+  width: 33%;
+  padding: 20px 20px 20px 20px;
+  border: none;
+}
+.footer .nav_footer a {
+  text-decoration: none;
+}
+.footer .media_link {
+  width: 33%;
+  padding: 20px 20px 20px 20px;
+  border: none;
+}
+.footer .media_link a {
+  text-decoration: none;
+}
+.footer .nav_link {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #333333;
+  margin-top: 20px;
+}
+.footer .contact {
+  width: 33%;
+  padding: 20px 0px 20px 0px;
+  border: none;
+}
+.footer .contact .location {
+  margin-top: 15px;
+  display: flex;
+  width: 100%;
+}
+.footer .contact .location .img {
+  background-image: url(/docs/less/img/location.png);
+  width: 13px;
+  height: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer .contact .location .text {
+  display: flex;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  margin-left: 6px;
+  max-width: 204px;
+}
+.footer .contact .phone {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 15px;
+}
+.footer .contact .phone .img {
+  background-image: url(/docs/less/img/Phone.png);
+  width: 13px;
+  height: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer .contact .phone .text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  margin-left: 6px;
+}
+.footer .developted_by {
+  padding: 20px 20px 20px 20px;
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+}
+.footer .developted_by a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #BDBDBD;
+}
+.footer .developted_by .logo_html_academy {
+  background-image: url("/docs/less/img/logo_htmlAcademy.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 12px;
+  height: 16px;
+  margin-left: 6px;
+}
+.footer .developted_by:hover a {
+  color: #9070EC;
+}
+.footer .developted_by:hover .logo_html_academy {
+  background-image: url("/docs/less/img/logo_htmlAcademy_hover.png");
+}
+.footer .developted_by:active a {
+  color: #593CAC;
+}
+.footer .developted_by:active .logo_html_academy {
+  background-image: url("/docs/less/img/logo_htmlAcademy_active.png");
+}
