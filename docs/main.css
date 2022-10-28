@@ -1081,7 +1081,7 @@ body {
   .card_block .price_block .buy_item .img {
     width: 20px;
     height: 16px;
-    background-image: url(docsless/img/Union_card.png);
+    background-image: url(less/img/Union_card.png);
     background-size: cover;
     background-repeat: no-repeat;
   }
