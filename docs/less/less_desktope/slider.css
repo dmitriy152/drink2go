@@ -142,3 +142,7 @@
   width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 62px));
   height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 4px));
 }
+.swiper-button-next,
+.swiper-button-prev {
+  top: 13%;
+}
