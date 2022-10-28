@@ -70,6 +70,8 @@
   margin-top: 40px;
 }
 .button_catalog input {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
   width: 160px;
   height: 45px;
   background: #7859CF;
@@ -87,6 +89,8 @@
   background-color: #593CAC;
 }
 .button_catalog .reset {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
   width: 160px;
   height: 45px;
   background: white;
