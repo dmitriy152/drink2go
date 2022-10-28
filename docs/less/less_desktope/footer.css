@@ -30,7 +30,7 @@
   margin-top: 10px;
 }
 .footer .logo_footer .logo_footer_img {
-  background-image: url(/docs/less/img/footer_logo_tablet.png);
+  background-image: url(less/img/footer_logo_tablet.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 170px;
@@ -43,35 +43,35 @@
   justify-content: space-between;
 }
 .footer .logo_footer .icon_block .icon1_img {
-  background-image: url(/docs/less/img/icon\ footer1.png);
+  background-image: url(less/img/icon\ footer1.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 40px;
   height: 40px;
 }
 .footer .logo_footer .icon_block a:hover .icon1_img {
-  background-image: url("/docs/less/img/icon\ footer1_hover.png");
+  background-image: url("less/img/icon\ footer1_hover.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 40px;
   height: 40px;
 }
 .footer .logo_footer .icon_block .icon2_img {
-  background-image: url(/docs/less/img/icon\ footer2.png);
+  background-image: url(less/img/icon\ footer2.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 40px;
   height: 40px;
 }
 .footer .logo_footer .icon_block a:hover .icon2_img {
-  background-image: url("/docs/less/img/icon\ footer2_hover.png");
+  background-image: url("less/img/icon\ footer2_hover.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 40px;
   height: 40px;
 }
 .footer .logo_footer .icon_block .icon3_img {
-  background-image: url(/docs/less/img/icon\ footer3.png);
+  background-image: url(less/img/icon\ footer3.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 40px;
@@ -81,7 +81,7 @@
   cursor: pointer;
 }
 .footer .logo_footer .icon_block a:hover .icon3_img {
-  background-image: url("/docs/less/img/icon\ footer3_hover.png");
+  background-image: url("less/img/icon\ footer3_hover.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 40px;
@@ -136,7 +136,7 @@
   width: 100%;
 }
 .footer .contact .location .img {
-  background-image: url(/docs/less/img/location.png);
+  background-image: url(less/img/location.png);
   width: 13px;
   height: 16px;
   background-size: cover;
@@ -158,7 +158,7 @@
   margin-top: 15px;
 }
 .footer .contact .phone .img {
-  background-image: url(/docs/less/img/Phone.png);
+  background-image: url(less/img/Phone.png);
   width: 13px;
   height: 16px;
   background-size: cover;
@@ -186,7 +186,7 @@
   color: #BDBDBD;
 }
 .footer .developted_by .logo_html_academy {
-  background-image: url("/docs/less/img/logo_htmlAcademy.png");
+  background-image: url("less/img/logo_htmlAcademy.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 12px;
@@ -198,11 +198,11 @@
   color: #9070EC;
 }
 .footer .developted_by:hover .logo_html_academy {
-  background-image: url("/docs/less/img/logo_htmlAcademy_hover.png");
+  background-image: url("less/img/logo_htmlAcademy_hover.png");
 }
 .footer .developted_by:active a {
   color: #593CAC;
 }
 .footer .developted_by:active .logo_html_academy {
-  background-image: url("/docs/less/img/logo_htmlAcademy_active.png");
+  background-image: url("less/img/logo_htmlAcademy_active.png");
 }

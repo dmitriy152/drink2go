@@ -219,11 +219,11 @@ input[type="range"]:active::-webkit-slider-thumb {
   position: absolute;
   left: 0;
   bottom: 0px;
-  background: url(/docs/less/img/radio_button_off.png) 0 0 no-repeat;
+  background: url(less/img/radio_button_off.png) 0 0 no-repeat;
   background-size: cover;
 }
 .form_radio input[type=radio]:checked + label:before {
-  background: url(/docs/less/img/radio_button_on.png) 0 0 no-repeat;
+  background: url(less/img/radio_button_on.png) 0 0 no-repeat;
   background-size: cover;
 }
 .form_radio label:hover:before {

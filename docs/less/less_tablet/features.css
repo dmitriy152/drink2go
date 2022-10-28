@@ -51,17 +51,17 @@
   margin-right: 20px;
 }
 .features .card .icon1 {
-  background-image: url(/docs/less/img/icon_1.png);
+  background-image: url(less/img/icon_1.png);
 }
 .features .card .icon2 {
-  background-image: url(/docs/less/img/icon_2.png);
+  background-image: url(less/img/icon_2.png);
 }
 .features .card .icon3 {
-  background-image: url(/docs/less/img/icon_3.png);
+  background-image: url(less/img/icon_3.png);
   height: 66px;
 }
 .features .card .icon4 {
-  background-image: url(/docs/less/img/icon_4.png);
+  background-image: url(less/img/icon_4.png);
 }
 .features .card .title {
   font-style: normal;

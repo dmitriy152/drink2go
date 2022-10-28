@@ -240,7 +240,7 @@ body {
     align-items: center;
   }
   .slider .slider_img {
-    background-image: url(/less/img/slider_img.png);
+    background-image: url(img/slider_img.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 280px;
@@ -248,10 +248,10 @@ body {
     margin: 20px 20px 10px 20px;
   }
   .slider .slider_img2 {
-    background-image: url(/less/img/slider_img2.png);
+    background-image: url(img/slider_img2.png);
   }
   .slider .slider_img3 {
-    background-image: url(/less/img/slider_img3.png);
+    background-image: url(img/slider_img3.png);
   }
   .slider .slider_conteiner {
     display: flex;
@@ -1083,7 +1083,7 @@ body {
   .card_block .price_block .buy_item .img {
     width: 20px;
     height: 16px;
-    background-image: url(docs/less/img/Union_card.png);
+    background-image: url(less/img/Union_card.png);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -3401,7 +3401,7 @@ body {
     margin-right: 10px;
   }
   .sort .selected_item .selected_block .img {
-    background-image: url(less/img/selected_img.PNG);
+    background-image: url(less/img/selected_img.png);
     width: 10px;
     height: 10px;
     background-repeat: no-repeat;
@@ -3519,7 +3519,7 @@ body {
   .card_block .price_block .buy_item .img {
     width: 20px;
     height: 16px;
-    background-image: url(less/img/Union_card.PNG);
+    background-image: url(less/img/Union_card.png);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -3537,22 +3537,22 @@ body {
     background-repeat: no-repeat;
   }
   .card1 {
-    background-image: url(less/img/card1.PNG);
+    background-image: url(less/img/card1.png);
   }
   .card2 {
-    background-image: url(less/img/card2.PNG);
+    background-image: url(less/img/card2.png);
   }
   .card3 {
-    background-image: url(less/img/card3.PNG);
+    background-image: url(less/img/card3.png);
   }
   .card4 {
-    background-image: url(less/img/card4.PNG);
+    background-image: url(less/img/card4.png);
   }
   .card5 {
-    background-image: url(less/img/card5.PNG);
+    background-image: url(less/img/card5.png);
   }
   .card6 {
-    background-image: url(less/img/card6.PNG);
+    background-image: url(less/img/card6.png);
   }
   .pagination_list {
     width: 100%;

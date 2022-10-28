@@ -7,7 +7,7 @@
 }
 .slider .slider_img {
   order: 3;
-  background-image: url(/docs/less/img/slider_img_tablet.png);
+  background-image: url(less/img/slider_img_tablet.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 476px;
@@ -15,10 +15,10 @@
   margin: 20px 20px 0px 20px;
 }
 .slider .slider_img2 {
-  background-image: url(/docs/less/img/slider_img2.png);
+  background-image: url(less/img/slider_img2.png);
 }
 .slider .slider_img3 {
-  background-image: url(/docs/less/img/slider_img3.png);
+  background-image: url(less/img/slider_img3.png);
 }
 .slider .slider_conteiner {
   display: flex;
