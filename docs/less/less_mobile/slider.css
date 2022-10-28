@@ -6,7 +6,7 @@
   align-items: center;
 }
 .slider .slider_img {
-  background-image: url(img/slider_img.png);
+  background-image: url(less/img/slider_img.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 280px;
@@ -14,10 +14,10 @@
   margin: 20px 20px 10px 20px;
 }
 .slider .slider_img2 {
-  background-image: url(img/slider_img2.png);
+  background-image: url(less/img/slider_img2.png);
 }
 .slider .slider_img3 {
-  background-image: url(img/slider_img3.png);
+  background-image: url(less/img/slider_img3.png);
 }
 .slider .slider_conteiner {
   display: flex;
