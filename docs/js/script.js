@@ -2,9 +2,12 @@
 
 if (document.querySelector(".mySwiper")){
   const swiper = new Swiper(".mySwiper", {
+
       slidesPerView: 1,
       spaceBetween: 30,
       loop: true,
+      mousewheel: true,
+      keyboard: true,
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -13,8 +16,21 @@ if (document.querySelector(".mySwiper")){
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
+      freeMode: {
+        enabled: true,
+        sticky: true,
+      },
+      autoplay: true,
+      autoplay: {
+        delay: 1000,
+        stopOnLastSlide: true,
+        disableOnInteraction: false,
+      },
+      
     });
+
 }
+
 
 if (document.querySelector(".header")){
   let headerButton = document.querySelector(".button_popup")
