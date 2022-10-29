@@ -23,7 +23,7 @@ if (document.querySelector(".mySwiper")){
     });
     setInterval(() => {
       swiper.slideNext();
-    }, 5000);
+    }, 6000);
 }
 
 
