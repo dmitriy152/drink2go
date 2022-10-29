@@ -20,15 +20,10 @@ if (document.querySelector(".mySwiper")){
         enabled: true,
         sticky: true,
       },
-      autoplay: true,
-      autoplay: {
-        delay: 1000,
-        stopOnLastSlide: true,
-        disableOnInteraction: false,
-      },
-      
     });
-
+    setInterval(() => {
+      swiper.slideNext();
+    }, 5000);
 }
 
 
