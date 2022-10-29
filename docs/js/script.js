@@ -30,6 +30,14 @@ if (document.querySelector(".header")){
   )})
 }
 
+if(document.querySelector(".catalog_link")){
+  let catalogLink = document.querySelector(".catalog_link")
+  let headerNavigation = document.querySelector(".header_nav")
+  catalogLink.addEventListener("click", function(){
+    headerNavigation.classList.remove("active_header_nav")
+  })
+}
+
 if(document.querySelector(".map")){
 const map = L.map('map')
 .setView({

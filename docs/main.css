@@ -2472,6 +2472,9 @@ body {
     font-weight: 500;
     text-transform: uppercase;
   }
+  .header .header_nav .nav_item:hover a {
+    transform: scale(1.1);
+  }
   .header .header_nav .active_items {
     font-weight: 500;
     font-size: 12px;
@@ -3688,7 +3691,7 @@ body {
     color: white;
   }
 }
-*:not(button, input, .header_logo, .logo_footer_img) {
+*:not(button, input, .header_logo, .logo_footer_img, a) {
   -webkit-transition: all 1500ms ease;
   -moz-transition: all 1500ms ease;
   -o-transition: all 1500ms ease;
