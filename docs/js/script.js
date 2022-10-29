@@ -28,19 +28,15 @@ if (document.querySelector(".header")){
       closedIcon.classList.toggle("none_icon")
   }
   )})
-}
-
-if(document.querySelector(".catalog_link")){
-  let catalogLink = document.querySelector(".catalog_link")
-  let headerNavigation = document.querySelector(".header_nav")
-  let popupLine = document.querySelectorAll(".popup_line")
-  let closedIcon = document.querySelector(".closed_icon")
-  catalogLink.addEventListener("click", function(){
-    headerNavigation.classList.remove("active_header_nav")
-    popupLine.forEach((el) => {el.classList.toggle("none_icon")
-      closedIcon.classList.toggle("none_icon")
-  })
-  })
+  if(document.querySelector(".catalog_link")){
+    let catalogLink = document.querySelector(".catalog_link")
+    catalogLink.addEventListener("click", function(){
+      headerNavigation.classList.remove("active_header_nav")
+      popupLine.forEach((el) => {el.classList.toggle("none_icon")
+        closedIcon.classList.toggle("none_icon")
+    })
+    })
+  }
 }
 
 if(document.querySelector(".map")){
